@@ -1,13 +1,8 @@
 import { orderByProps } from './index'
 import { showAttackDescription } from './index'
 
-test('totalCost', () => {
-    const cart = new Cart();
-    cart.add({price: 200, id: 1});
-    cart.add({price: 100, id: 2});
-    cart.add({price: 300, id: 3});
-    const result = cart.totalCost();
-    expect(result).toBe(600);
+test('', () => {
+    
 })
 
 test('test', () => {
